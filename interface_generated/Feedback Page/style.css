@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem; /* More readable font size */
+    background-color: #f5f5f5; /* Better contrast for visually-impaired users */
+    color: #333; /* Better contrast for visually-impaired users */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 1.2rem; /* Larger font for better readability */
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 20px 30px; /* Larger to accommodate touch targets for mobile users */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 1.5rem; /* Improved visibility of button text */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+button:active,
+button:focus {
+    outline: 3px dotted #ffeb3b; /* Better accessibility for keyboard-only users */
+}
+
+/* Use ARIA roles and labels in your CSS to enhance accessibility */
+[aria-required="true"] {
+    border-left: 4px solid #fd634e; /* Highlights required fields and attract user attention */
+}
+
+[aria-label="Feedback form"] {
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.05); /* Adds a shadow to the form for a 3D effect */
+}

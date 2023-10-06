@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+  <title>Scheduling website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Inclusive scheduling website for everyone.">
+</head>
+<body>
+  
+  <header> 
+    <h1>Welcome to our Scheduling Website</h1>
+    <p>Please follow the guidelines to ensure respectful communication.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="instruction.html">Step-by-Step Assistance</a></li>
+      <li><a href="feedback.html">Give Feedback</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <div id="chat">
+      <h2>Chat Section</h2>
+      <p>Everyone has an equal opportunity to speak. Offensive and rude language is not allowed.</p>
+      <form id="messageForm">
+        <label for="messageInput">Enter your message:</label>
+        <input type="text" id="messageInput" required>
+        <button type="submit">Send</button>
+      </form>
+      <div id="chatMessages"></div>
+    </div>
+
+    <div id="fileSharing">
+      <h2>File Sharing</h2>
+      <p>Help each other by sharing useful files and resources here.</p>
+      <form id="fileForm">
+        <label for="fileInput">Choose file:</label>
+        <input type="file" id="fileInput" required>
+        <button type="submit">Upload</button>
+      </form>
+      <div id="sharedFiles"></div>
+    </div>
+
+    <div id="taskManagement">
+      <h2>Task Management</h2>
+      <p>Assign tasks to team members here. Remember, those in lower-status positions should also have the chance to manage tasks.</p>
+      <button id="delegateTasks">Delegate Tasks</button>
+    </div>
+    
+    <div id="notifications">
+      <h2>Notifications</h2>
+      <p>Get updates and nudges for awkward social situations to help your collaboration go smoothly.</p>
+    </div>
+  </main>
+  
+  <footer>
+    <p>© 2022 Inclusive Scheduling. All rights reserved.</p>
+  </footer>
+  
+</body>
+</html>

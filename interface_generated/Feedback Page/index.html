@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Incorporating rule 1 -->
+        <nav aria-label="Step-by-step assistance">
+            <ol>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="howto.html">How to use</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <h1>Feedback Page</h1>
+        
+        <!-- Incorporating rule 3 and rule 4 -->
+        <form id="feedback-form" aria-label="Feedback form">
+            <fieldset>
+                <legend>Give us your feedback</legend>
+                <!-- User can enter their experiences -->
+                <div>
+                    <label for="feedback"><h2>Feedback</h2></label>
+                    <textarea id="feedback" placeholder="Enter your experiences with the interface" aria-required="true"></textarea>
+                </div>
+                <div>
+                    <!-- User can give their suggestions -->
+                    <label for="suggestions"><h2>Suggestions</h2></label>
+                    <textarea id="suggestions" placeholder="Enter suggestions for new features or improvements" aria-required="true"></textarea>
+                </div>
+                <div>
+                    <!-- User can report their issues -->
+                    <label for="issues"><h2>Issue Reporting</h2></label>
+                    <textarea id="issues" placeholder="Report bugs, issues and suggest improvements" aria-required="true"></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <!-- Incorporating rule 6 -->
+        <p>
+            Your feedback matters to us. Help us improve our web interface. Please avoid offensive or discriminatory language.
+        </p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

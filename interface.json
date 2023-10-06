@@ -1,0 +1,45 @@
+{
+  "HomePage": {
+    "description": "This is the preliminary navigation point for users to login or register. Homepage includes a general overview of the website along with its main features.",
+    "functions": [
+      "User Authentication: Registering, logging in and resetting password",
+      "Presentation: Brief overview of the website's purpose, usage instructions, and highlighting important features"
+    ]
+  },
+  "Dashboard": {
+    "description": "After logging in, users land on the Dashboard. Here they can overview their schedules, tasks, and onboard new users.",
+    "functions": [
+      "View Schedules: Overview of personal, shared schedules, upcoming tasks and important deadlines",
+      "Onboarding: Step-by-step assistance guiding new users through the features or inviting new users to the platform",
+      "Feedback Channels: Links to a feedback page, quick survey prompts or chat support",
+      "Goal-Aligned Features: Personalize dashboard to align with the user's goals"
+    ]
+  },
+  "Calendar": {
+    "description": "Detailed view of tasks and events. Users can organize, create and modify their schedules here.",
+    "functions": [
+      "Task scheduling: Create, edit, and delete tasks or events",
+      "Sharing: Share schedules with other users",
+      "Skill-Sharing Features: Information windows for shared skills, tips and tricks",
+      "Equal Opportunity to Speak: Allow each user to contribute equally to shared tasks planning in group schedules"
+    ]
+  },
+  "Interactions": {
+    "description": "Communication hub for users to discuss tasks, share files and build teamwork.",
+    "functions": [
+      "Chat Feature: Real-time communication between users",
+      "File Sharing: Upload, download and share documents relevant to tasks",
+      "Sensitive Language Filter: Automated moderation for any problematic language",
+      "Agency Rule: Features enabling users with less authority to delegate and manage tasks optimizing collaboration overhead",
+      "Nudging Rule: Notifications and prompts to reduce awkward social situations in collaborative tasks"
+    ]
+  },
+  "Feedback Page": {
+    "description": "Allows users to provide feedback and suggestions to improve the web interface.",
+    "functions": [
+      "Feedback Form: Form for users to detail their experiences with the interface",
+      "Suggestions Box: Allows users to provide suggestions for new features or improvements",
+      "Issue Reporting: Users can report bugs, issues and suggest improvements to existing features"
+    ]
+  }
+}

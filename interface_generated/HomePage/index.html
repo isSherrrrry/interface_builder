@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Effective Scheduling Platform</title>
+    <script src="inclusiveFeatures.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Organizational Platform</h1>
+        <p>If you're a new user, we have a step-by-step onboarding process to show you how to use our scheduling tool effectively.</p>
+    </header> 
+    <div id="userAuth">
+        <button id="registerButton" onclick="startOnboarding()">Register</button>
+        <button id="loginButton">Login</button>
+        <!-- Equal opportunity to reset password -->
+        <button id="passwordReset">Forgot Password?</button>
+    </div>
+    <div id="feedback">
+        <!-- Open feedback channel, filter sensitive language -->
+        <textarea type="text" placeholder="Feel free to share your experience or report issues" id="feedbackInput"></textarea>
+        <button id="feedbackButton" onclick="filterFeedback()">Submit</button>
+    </div>
+
+     <!--Facilitate Skill sharing -->
+    <div id="skillsharing">
+        <h2>Learn from other users:</h2>
+        <textarea placeholder="Share a trick or tip" id="shareSkill"></textarea>
+        <button id="shareSkillBtn" onclick="shareSkill()">Share Skill</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

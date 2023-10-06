@@ -1,0 +1,53 @@
+body {
+    /* High contrast for visibility */
+    background: #F5F5F5;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size:18px; /* Larger font size for readability */
+}
+
+header {
+    padding: 20px; 
+    background: #2F4F4F; /* Use of distinct color for separating sections */
+    color: #fff; /* Contrast color for heading */
+    margin-bottom: 30px;
+}
+
+button {
+    margin: 30px 10px; /* More space between buttons to avoid misclicks */
+    padding: 15px; /* Larger click area */
+    color: #fff;  
+    background-color: #008CBA; /* High visibility color */
+    border: none;
+    cursor: pointer;
+    font-size: 20px; /* Larger font */
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 4px; /* Rounded corners */
+}
+
+button:hover {
+    background-color: #4CAF50; /* Color change to indicate interaction */
+    color: white;
+}
+
+#feedback {
+    margin-top: 50px; /* Generous spacing */
+    background-color: #D3D3D3; /* Distinct background to separate section */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 80%; /* Larger input area for better visibility */
+    height: 100px;
+}
+
+#skillsharing { 
+    margin-top: 50px; /* Generous spacing */
+    background-color: #D3D3D3; /* Distinct background to separate section */
+    padding: 20px;
+    border-radius: 10px;
+}
